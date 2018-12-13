@@ -40,14 +40,19 @@ width: 100%;
     background-color: #abaaab;
   }
 
-.content{
+/*.content{
 box-sizing: border-box;
 background-color: #dbd9db;
 width: 100%;
 }
+*/
 
 .content:hover {
     background-color: #abaaab;
+}
+
+.content, .arrow{
+  display: inline-block;
 }
 
 .container {
@@ -78,9 +83,9 @@ p {
     }
 
     .arrow{
-      display: inline-block;
       float: right;
       padding: 20px 20px 0 0;
+      position: relative;
     }
 
     .arrow-left{
